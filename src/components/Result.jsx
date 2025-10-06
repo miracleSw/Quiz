@@ -6,7 +6,7 @@ const Result = (props) => {
   return (
     <div className='result-container'>
         <h2>Kết quả: </h2>
-        <p className='result'>Bạn đã trả lời đúng {props.score}/12 câu 👏👏👏</p>
+        <p className='result'>Bạn đã trả lời đúng {props.score}/{props.length} câu 👏👏👏</p>
         <div className='result-Btn-Container'>
             <button onClick={props.lookBack}>Xem lại</button>
             <button onClick={props.restartQuiz}>Làm lại</button>

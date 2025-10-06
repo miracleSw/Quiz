@@ -4,65 +4,80 @@ import Result from "./Result";
 
 const quiz = [
   {
-    question: "Thủ đô của Việt Nam là gì?",
-    options: ["Hà Nội", "TP. Hồ Chí Minh", "Đà Nẵng", "Huế"],
-    answer: "Hà Nội",
+    question: "Con gì đập thì sống, để yên thì chết?",
+    options: ["Con tim", "Con cá", "Con ếch", "Con ngựa"],
+    answer: "Con tim"
   },
   {
-    question: "Hệ điều hành nào sau đây được phát triển bởi Apple?",
-    options: ["Windows", "Android", "iOS", "Linux"],
-    answer: "iOS",
+    question: "Cây gì không lá, không hoa, không quả, không cành?",
+    options: ["Cây cột điện", "Cây chổi", "Cây gậy", "Cây cầu"],
+    answer: "Cây cột điện"
   },
   {
-    question: "Trong toán học, π (pi) xấp xỉ bằng bao nhiêu?",
-    options: ["2.14", "3.14", "4.13", "3.41"],
-    answer: "3.14",
+    question: "Da trắng mịn màng, ruột trong lại đỏ. Là quả gì?",
+    options: ["Quả mận", "Quả thanh long", "Quả đào", "Quả dưa hấu"],
+    answer: "Quả dưa hấu"
   },
   {
-    question: "Nguyên tố hóa học nào có ký hiệu là O?",
-    options: ["Oxy", "Vàng", "Bạc", "Sắt"],
-    answer: "Oxy",
+    question: "Con gì ăn lửa với nước, đẻ trứng bằng sắt?",
+    options: ["Tàu hỏa", "Ô tô", "Máy bay", "Xe máy"],
+    answer: "Tàu hỏa"
   },
   {
-    question: "Ai là tác giả của truyện 'Dế Mèn phiêu lưu ký'?",
-    options: ["Nam Cao", "Tô Hoài", "Ngô Tất Tố", "Nguyễn Nhật Ánh"],
-    answer: "Tô Hoài",
+    question: "Vừa bằng hạt gạo, đi khắp thế gian là gì?",
+    options: ["Cái đầu", "Con mắt", "Cái tai", "Cái mũi"],
+    answer: "Con mắt"
   },
   {
-    question: "Quốc gia nào có diện tích lớn nhất thế giới?",
-    options: ["Trung Quốc", "Mỹ", "Nga", "Canada"],
-    answer: "Nga",
+    question: "Càng kéo càng ngắn là gì?",
+    options: ["Cái dây thun", "Điếu thuốc lá", "Cây nến", "Sợi chỉ"],
+    answer: "Điếu thuốc lá"
   },
   {
-    question: "Trái đất quay quanh Mặt Trời mất bao lâu?",
-    options: ["24 giờ", "1 tháng", "365 ngày", "7 ngày"],
-    answer: "365 ngày",
+    question: "Không ai cắt mà ngắn, không ai gọt mà tròn. Là gì?",
+    options: ["Cái bóng", "Mặt trăng", "Cái bánh", "Cái nồi"],
+    answer: "Mặt trăng"
   },
   {
-    question: "Ngôn ngữ lập trình nào sau đây chạy trên trình duyệt web?",
-    options: ["Python", "C++", "JavaScript", "Java"],
-    answer: "JavaScript",
+    question: "Không chân mà đi, không miệng mà nói, không tai mà nghe?",
+    options: ["Điện thoại", "Ti vi", "Sóng radio", "Gió"],
+    answer: "Điện thoại"
   },
   {
-    question: "Thành phần chính của nước là gì?",
-    options: ["H2O", "CO2", "NaCl", "O2"],
-    answer: "H2O",
+    question: "Càng vo càng nhỏ là gì?",
+    options: ["Cục đất", "Hạt gạo", "Quả bóng", "Cục bông"],
+    answer: "Hạt gạo"
   },
   {
-    question: "Facebook được sáng lập bởi ai?",
-    options: ["Elon Musk", "Bill Gates", "Mark Zuckerberg", "Steve Jobs"],
-    answer: "Mark Zuckerberg",
+    question: "Càng đông càng lạnh là gì?",
+    options: ["Băng", "Nước", "Gió mùa", "Tủ lạnh"],
+    answer: "Băng"
   },
   {
-    question: "Loài vật nào được mệnh danh là chúa sơn lâm?",
-    options: ["Sư tử", "Hổ", "Báo", "Gấu"],
-    answer: "Hổ",
+    question: "Không ăn, không uống mà lớn nhanh như thổi là gì?",
+    options: ["Bóng bay", "Cây tre", "Em bé", "Cái bánh"],
+    answer: "Bóng bay"
   },
   {
-    question: "Trái tim con người có bao nhiêu ngăn?",
-    options: ["2", "3", "4", "5"],
-    answer: "4",
+    question: "Trên hang dưới nước, cánh đỏ đuôi xanh, là con gì?",
+    options: ["Con chuồn chuồn", "Con cá chép", "Con chim én", "Con bướm"],
+    answer: "Con chuồn chuồn"
   },
+  {
+    question: "Đầu tròn, mình thẳng, ruột rỗng, mồm kêu, tay múa. Là gì?",
+    options: ["Cái sáo", "Cây nến", "Cái ống hút", "Cái chai"],
+    answer: "Cái sáo"
+  },
+  {
+    question: "Vừa bằng hạt đỗ, ăn giỗ cả làng. Là gì?",
+    options: ["Con muỗi", "Con rệp", "Con ruồi", "Con kiến"],
+    answer: "Con muỗi"
+  },
+  {
+    question: "Bốn chân chụm lại một chỗ, đầu đội mâm đồng. Là gì?",
+    options: ["Cái bàn", "Cái ghế", "Cái kiềng", "Cái nồi"],
+    answer: "Cái kiềng"
+  }
 ];
 
 const Quiz = () => {
@@ -125,7 +140,7 @@ const Quiz = () => {
     setIsQuizEnded(false);
   }
 
-  if(isQuizEnded) return <Result score={score} restartQuiz={restartQuiz} lookBack={lookBack}/>
+  if(isQuizEnded) return <Result score={score} restartQuiz={restartQuiz} lookBack={lookBack} length={quiz.length}/>
 
   return (
     <div className="quiz-container">
